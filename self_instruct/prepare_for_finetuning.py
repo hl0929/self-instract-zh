@@ -6,6 +6,9 @@ import random
 import argparse
 
 
+random.seed(42)
+
+
 def encode_instance(instruction, input, output, random_template=True):
     encoding_templates_w_input = [
         ("{instruction}\nInput: {input}\nOutput:", " {output}<|endoftext|>"),
