@@ -3,6 +3,8 @@
     <h1>Self-Instruct: 使用自生成指令对齐语言模型中文版</h1>
 </div>
 
+此代码库的公开代码是基于 davinci-002 completion 进行中文实验的。更多中文实验是基于 qwen 系列进行探索的（待开源），这部分包括指令生成、SFT 训练等。
+◊
 # self-instruct-zh 介绍
 
 self-instruct-zh copy from [self-instruct](https://github.com/yizhongw/self-instruct)
